@@ -1,0 +1,113 @@
+/* ============================= */
+/* ===== GLOBAL RESET ===== */
+/* ============================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============================= */
+/* ===== USERS TABLE PAGE ===== */
+/* ============================= */
+
+.table-container {
+  padding: 20px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Vertical borders only */
+.custom-table th,
+.custom-table td {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Header bottom line */
+.custom-table thead tr {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Remove horizontal lines in body */
+.custom-table tbody tr {
+  border: none;
+}
+
+/* Clickable row */
+.table-row {
+  cursor: pointer;
+}
+
+/* Subtle hover */
+.table-row:hover {
+  background-color: #f5f7fa;
+}
+
+/* ============================= */
+/* ===== USER DETAILS PAGE ===== */
+/* ============================= */
+
+.details-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+}
+
+.details-card {
+  background: #fff;
+  padding: 25px 30px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.details-card h2 {
+  margin-bottom: 15px;
+}
+
+.details-card p {
+  margin: 8px 0;
+}
+
+.details-card button {
+  margin-top: 15px;
+  padding: 8px 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.details-card button:hover {
+  background-color: #1e40af;
+}
+
+
+/* React Bootstrap table – horizontal lines only */
+.horizontal-table th,
+.horizontal-table td {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Clickable row */
+.clickable-row {
+  cursor: pointer;
+}
+
+/* Subtle hover effect */
+.clickable-row:hover {
+  background-color: #f8f9fa;
+}
