@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [todos, setTodos] = useState([]);
-  const [input, setInput] = useState("");
-  const [editId, setEditId] = useState(null);
+  const [todos, setTodos] = useState([]);     //read
+  const [input, setInput] = useState("");     //create 
+  const [editId, setEditId] = useState(null); //update
 
   // CREATE & UPDATE
   const handleAddOrUpdate = () => {
